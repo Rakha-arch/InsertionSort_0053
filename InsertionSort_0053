@@ -42,6 +42,6 @@ for (i = 1; i <= n - 1; i++)
 {//step1
 
 temp = arr [i]; //step 2
-}
 
+j = i - 1; //step3
 }
