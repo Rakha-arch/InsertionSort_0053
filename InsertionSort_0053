@@ -47,6 +47,7 @@ j = i - 1; //step3
 
 while(j >= 0&& arr[j] > temp) //step  4
 {
-    
+arr[j + 1] = arr[j]; // step4a
+j--; //step 4b
 }
 }
