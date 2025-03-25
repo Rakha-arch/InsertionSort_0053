@@ -31,3 +31,17 @@ cout << " data ke-" << (i + 1) << ":"; // memasukkan atau menginput nilai data n
 cin >> arr[i]; //menyimpan nilai kedalam array arr
 }
 }
+
+void insertionSort()
+{// procedure insertionsort
+
+int temp; // membuat variable data temporer atau penyimpan sederhana
+int j, i; // membuat variable j sebagai penanda
+
+for (i = 1; i <= n - 1; i++)
+{//step1
+
+temp = arr [i]; //step 2
+}
+
+}
