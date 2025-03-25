@@ -6,7 +6,13 @@ int n; //membuat variable inputan n
 
 void input ()
 {//procedure input
-while (condition)
+while (true)
 {
-    
+cout << "masukan jumlah data pada Array :";
+cin >> n;
+
+if (n <= 20)
+{// membuat kondisi n tidak lebih dari 20
+break;
 }
+else
