@@ -50,4 +50,35 @@ while(j >= 0&& arr[j] > temp) //step  4
 arr[j + 1] = arr[j]; // step4a
 j--; //step 4b
 }
+
+
+arr [j + 1] = temp; //step5
 }
+}
+
+void display()
+{
+cout << endl; // output baris kosong
+cout << "====================" << endl; 
+cout << "Total passs = " << n -1 << endl;//count elemen movemen
+cout << "====================" << endl;// output ke layar
+cout <<"Elemen Array yang telah tersusun" << endl; //output ke layar
+cout << "================================" << endl;// output ke layat
+
+for [int j = 0; j < n; j++]
+{ // looping dengan j dimulai dari 0 hingga n-1
+cout << arr[j] << endl; // output ke layar
+}
+cout << endl; // output baris kosong
+}
+
+int main ()
+{
+    input();
+    insertionSort();
+    display(;
+    system("pause"))
+    return 0;
+}
+
+
