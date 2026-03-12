@@ -4,10 +4,6 @@ using namespace std;
 int arr[20]; 
 int n; 
 
-int main() {
-    return 0;
-}
-
 void input() {
     while (true) {
         cout << "Masukkan jumlah data pada array: ";
@@ -20,7 +16,6 @@ void input() {
         cin >> arr[i];
     }
 }
-// Di main, panggil input();
 
 void insertionsort() {
     int temp, j;
@@ -33,8 +28,8 @@ void insertionsort() {
         }
         arr[j + 1] = temp;
         cout << "\nStep " << i << ": ";
-    for (int k = 0; k < n; k++) {
-        cout << arr[k] << " ";
+        for (int k = 0; k < n; k++) {
+            cout << arr[k] << " ";
         }
     }
 }
@@ -53,5 +48,6 @@ int main() {
     input();
     insertionsort();
     display();
+    system("pause");
     return 0;
 }
