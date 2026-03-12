@@ -38,3 +38,13 @@ void insertionsort() {
         }
     }
 }
+
+void display() {
+    cout << "\n\n======================";
+    cout << "\nElemen array yang telah diurutkan\n";
+    cout << "======================" << endl;
+    for(int j = 0; j < n; j++) {
+        cout << arr[j] << " ";
+    }
+    cout << endl;
+}
